@@ -1,0 +1,79 @@
+# <!-- <div class="intro">
+#         <h1>Shawn Ebeyer</h1>
+#         <span>sometimes builds</span>
+#         <p>Taco Salads</p>
+#         <p>LEGO towers</p>
+#         <p>Up the courage</p>
+#         <p>Smashburgers</p>
+#         <span>and</span>
+#         <p><a href="">websites</a></p>
+#     </div> -->
+
+#     <!-- <div class="intro">
+#         <h1>Shawn Ebeyer</h1>
+
+#         <span>sometimes</span>
+
+#         <p>Gets</p><span>out of</span><p>town</p>
+
+#         <p>Musters</p><span>up the</span><p>courage</p>
+
+#         <p>Creates</p><span>uneven</span><p>lego towers</p>
+        
+#         <span>and</span>
+        
+#         <p>Builds</p><span>accessible</span><p>Websites</p>
+#     </div> -->
+
+# <!-- <section class="intro">
+#             <h1>Shawn Ebeyer</h1>
+
+#             <span>sometimes</span>
+
+#             <p>Gets</p><span>out of</span><p>town</p>
+
+#             <p>Musters</p><span>up the</span><p>courage</p>
+
+#             <p>Creates</p><span>uneven</span><p>lego towers</p>
+            
+#             <span>and</span>
+            
+#             <p>Builds</p><span>accessible</span><p><a href="">websites</a></p>
+#         </section> -->
+        
+
+#         <!-- <section class="this">
+#             <h1>Shawn Ebeyer</h1>
+#             <span class="secondary">
+#                 sometimes
+#             </span>
+
+#             <p>
+#                 <span>gets</span>
+#                 <span class="secondary">out of</span>
+#                 <span>town</span>
+#             </p>
+
+#             <p>
+#                 <span>musters</span>
+#                 <span class="secondary">up the</span>
+#                 <span>courage</span>
+#             </p>
+
+#             <p>
+#                 <span>creates</span>
+#                 <span class="secondary">uneven</span>
+#                 <span>lego towers</span>
+#             </p>
+
+#             <span class="secondary">
+#                 and
+#             </span>
+
+#             <p>
+#                 <span>builds</span>
+#                 <span class="secondary">accessible</span>
+#                 <span><a href="">websites</a></span>
+#             </p>
+
+#         </section>
