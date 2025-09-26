@@ -1,11 +1,22 @@
+/* initial box layout model */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: #213c4a;
+  background-color: #40535d;
   display: flex;
   min-height: 100vh;
   width: 100%;
   flex-flow: column nowrap;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 main {
@@ -22,17 +33,20 @@ footer {
 }
 
 h1 {
+  /* color: #96d294; */
   color: #9cec9a;
 }
 
 p,
 p a {
   color: #aec8bd;
+  /* color: rgb(206, 238, 252); */
 }
 
 h1,
 p {
   font-size: 4em;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 10px;
   margin: 20px 0;
@@ -41,56 +55,17 @@ p {
 a {
   text-decoration: none;
   color: #dfbc9e;
+  /* color: #EB9971; */
   transition: all 0.25s ease-in-out;
-  border-bottom: 4px solid transparent;
+  border-bottom: 4px solid #dfbc9e;
 }
 
 a:hover {
-  border-bottom: 4px solid currentColor;
-}
-
-.fancy {
-  font-family: "Sacramento", cursive;
-  color: #aec8bd;
-  font-size: 50px;
-  margin: 0;
-}
-
-.neon {
+  border-bottom: 4px solid transparent;
   text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
     0 0 50px #ff4da6, 0 0 60px #ff4da6;
-}
-
-.neon:hover {
-  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-    0 0 50px #ff4da6, 0 0 60px #ff4da6;
-}
-
-.is-small {
-  font-size: 1.2rem;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-.flex-center {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.recent {
-  margin-block-end: 10px;
-  svg {
-    margin-inline-end: 10px;
-  }
-}
-
-.recent-list {
-  margin-block: 25px;
+  /* 0 0 70px #ff4da6,  */
+  /* 0 0 80px #ff4da6; */
 }
 
 ul {
@@ -116,19 +91,23 @@ header a {
 }
 
 header a:hover {
+  /* border-bottom: none; */
   border-bottom: 4px solid rgb(206, 238, 252);
 }
 
 svg path {
   fill: #aec8bd;
+  /* fill: rgb(206, 238, 252); */
   transition: all 0.2s ease-in-out;
   border-bottom: none;
 }
 
 header a:hover svg path {
+  /* fill: rgba(247, 240, 240, 0.935); */
   fill: rgb(206, 238, 252);
 }
 header a:hover svg {
+  /* filter: drop-shadow(0px 0px 14px #ff4da6); */
   filter: drop-shadow(3px 5px 14px #7392e0);
 }
 
@@ -139,8 +118,12 @@ header a:hover svg {
   text-align: center;
 }
 
-footer span {
-  font-size: 1em;
+.fancy {
+  font-family: "Sacramento", cursive;
+  color: #aec8bd;
+  /* color: rgb(206, 238, 252); */
+  font-size: 40px;
+  margin: 0;
 }
 
 .sr-only {
@@ -152,6 +135,10 @@ footer span {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+}
+
+footer span {
+  font-size: 2em;
 }
 
 @media screen and (max-width: 768px) {
